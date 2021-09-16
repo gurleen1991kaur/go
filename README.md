@@ -16,3 +16,10 @@ Port - 3306
 After cloning the code in a folder in your machine - 
 Open command prompt and navigate to the source code folder and run the "go run myserver.go" command; that should start our server
 Open the postman app and we are ready to test our code!
+
+The functions we have in the code - 
+getAccounts function - retrieves all rows in the Accounts table (Get method) 
+getAccount function - retrieves a single account based on the account_id (Get method)
+createAccount function - creates a new record in the Accounts table (Post method)
+getTran function - retrieves all the rows in the Transactions table (Get method)
+createTran function - creates a new record in the Transactions table (Post method)
